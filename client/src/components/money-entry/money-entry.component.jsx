@@ -17,7 +17,7 @@ export default function MoneyEntry({entryData, account, index, deleteEntry, setE
         toggle: true, 
         ...entryData
         })}>
-        <i class="fas fa-pen-square money-entry-edit-btn"></i>
+        <i className="fas fa-pen-square money-entry-edit-btn"></i>
       </div>
       <div className='money-entry-delete' onClick={() => deleteEntry(id, account)}>
         <i className="fas fa-trash-alt money-entry-delete-btn"></i>

@@ -1,6 +1,4 @@
-import React, {useReducer, useContext, useEffect} from 'react';
-import axios from 'axios';
-import { AuthTokenContext } from '../../context/Auth-token-context/AuthTokenContext'
+import React, {useReducer, useEffect} from 'react';
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component'
 import onClickOutside from "react-onclickoutside";
